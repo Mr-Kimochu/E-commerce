@@ -10,7 +10,7 @@
 body{
     width: 100%;
     height: 100vh;
-    background-image: url(suitebg.png);
+    background-image: url(shoe.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -40,7 +40,7 @@ height: auto;
 }
 
 .navlist li a{
-    color: white;
+    color: rgb(207, 8, 148);
     font-size: 14px;
     text-transform: uppercase;
     font-weight: 700;
@@ -52,7 +52,7 @@ height: auto;
 }
 
 .navlist li a:hover{
-    color: #d3d3d3;
+    color: #190472;
     border-bottom: 2px solid #fff;
 
 }
@@ -94,17 +94,17 @@ section{
 }
 
 .home-text h4{
-    color: white;
+    color: rgb(146, 7, 7);
     font-size: 18px;
     font-weight: 500;
     
 }
 
 .home-text h1{
-    font-size: 48px;
+    font-size: 46px;
     text-transform: uppercase;
-    color: #fff;
-    font-weight: 700;
+    color: #8f0878;
+    font-weight: 600;
     margin-bottom: 10px;
 }
 
@@ -117,10 +117,6 @@ section{
     margin-bottom: 20px;
 }
 
-.home-text span{
-    font-weight: bold;
-
-}
 
 .home-inp{
     width: 100%;
@@ -130,7 +126,7 @@ section{
 
 .home-inp input:first-child{
     display: inline-block;
-    width: 85%;
+    width: 65%;
     outline: none;
     padding: 16px 140px 16px 15px;
     border: 2px solid #ce1b4c;
@@ -141,12 +137,12 @@ section{
     position: absolute;
     display: inline-block;
     border: none;
-    background-color: #152f5d;
+    background-color: #9c1a5b;
     color: white;
     text-transform: capitalize;
     font-size: 15px;
     padding: 16px 40px;
-    border-radius: 30px;
+    border-radius: 50px;
     cursor: pointer;
     top: 1px;
     right: 10px;
@@ -155,7 +151,7 @@ section{
 .right{
     position: absolute;
     top: 70%;
-    right: 150px;
+    right: 1500px;
     padding: 0.5%;
     transform: rotate(90deg);
 }
