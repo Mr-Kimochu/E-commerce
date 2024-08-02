@@ -136,3 +136,97 @@ section{
     border: 2px solid #ce1b4c;
     border-radius: 40px;
 }
+
+.home-inp input:last-child{
+    position: absolute;
+    display: inline-block;
+    border: none;
+    background-color: #152f5d;
+    color: white;
+    text-transform: capitalize;
+    font-size: 15px;
+    padding: 16px 40px;
+    border-radius: 30px;
+    cursor: pointer;
+    top: 1px;
+    right: 10px;
+}
+
+.right{
+    position: absolute;
+    top: 70%;
+    right: 150px;
+    padding: 0.5%;
+    transform: rotate(90deg);
+}
+
+.right a{
+    color: white;
+    margin: 0 15px;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 500;
+    transition: 0.3s linear;
+}
+
+.right a:hover{
+    color: #ce1b4c;
+
+}
+
+@media (max-width: 995px){
+    header{
+      padding: 18px 20px;
+      transition: 0.3s;  
+    }
+}
+
+@media(max-width: 685px) {
+    .home-text h4{
+        font-size: 16px;
+        transition: 0.3s linear;
+    }
+
+    .home-text h1{
+        font-size: 40px;
+    }
+
+    .home-text p{
+        font-size: 14px;
+    }
+}
+
+@media(max-width: 925px) {
+    #menu-icon{
+        display: block;
+        
+    }
+
+    .navlist{
+        position: absolute;
+        top: -600px;
+        left: 0;
+        right: 0;
+        flex-direction: column;
+        text-align: center;
+        background-color: #152f5d;
+        transition: 0.3s linear;
+    }
+
+    .navlist a{
+        display: block;
+        padding: 16px;
+        margin: 8px;
+    }
+
+    .navlist.open{
+        top: 100%;
+    }
+}
+
+@media(max-width: 825px) {
+    .home-btn{
+        background-color: #152f5d;
+        border: 2px solid #152f5d;
+    }
+}
